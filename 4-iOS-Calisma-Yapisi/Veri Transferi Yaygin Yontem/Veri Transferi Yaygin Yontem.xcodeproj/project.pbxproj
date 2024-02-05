@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		677DEBB92B6D71FB000B9084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677DEBB82B6D71FB000B9084 /* AppDelegate.swift */; };
+		677DEBBB2B6D71FB000B9084 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677DEBBA2B6D71FB000B9084 /* SceneDelegate.swift */; };
+		677DEBBD2B6D71FB000B9084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677DEBBC2B6D71FB000B9084 /* ViewController.swift */; };
+		677DEBC02B6D71FB000B9084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677DEBBE2B6D71FB000B9084 /* Main.storyboard */; };
+		677DEBC22B6D71FC000B9084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677DEBC12B6D71FC000B9084 /* Assets.xcassets */; };
+		677DEBC52B6D71FC000B9084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677DEBC32B6D71FC000B9084 /* LaunchScreen.storyboard */; };
+		677DEBD02B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677DEBCF2B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemTests.swift */; };
+		677DEBDA2B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677DEBD92B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemUITests.swift */; };
+		677DEBDC2B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677DEBDB2B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemUITestsLaunchTests.swift */; };
+		677DEBE92B6D7237000B9084 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677DEBE82B6D7237000B9084 /* ViewControllerB.swift */; };
+		677DEBEB2B6D723F000B9084 /* ViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677DEBEA2B6D723F000B9084 /* ViewControllerC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		677DEBCC2B6D71FC000B9084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 677DEBAD2B6D71FB000B9084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 677DEBB42B6D71FB000B9084;
+			remoteInfo = "Veri Transferi Yaygin Yontem";
+		};
+		677DEBD62B6D71FC000B9084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 677DEBAD2B6D71FB000B9084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 677DEBB42B6D71FB000B9084;
+			remoteInfo = "Veri Transferi Yaygin Yontem";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		677DEBB52B6D71FB000B9084 /* Veri Transferi Yaygin Yontem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veri Transferi Yaygin Yontem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		677DEBB82B6D71FB000B9084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		677DEBBA2B6D71FB000B9084 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		677DEBBC2B6D71FB000B9084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		677DEBBF2B6D71FB000B9084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		677DEBC12B6D71FC000B9084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		677DEBC42B6D71FC000B9084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		677DEBC62B6D71FC000B9084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677DEBCB2B6D71FC000B9084 /* Veri Transferi Yaygin YontemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veri Transferi Yaygin YontemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		677DEBCF2B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_Transferi_Yaygin_YontemTests.swift; sourceTree = "<group>"; };
+		677DEBD52B6D71FC000B9084 /* Veri Transferi Yaygin YontemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veri Transferi Yaygin YontemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		677DEBD92B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_Transferi_Yaygin_YontemUITests.swift; sourceTree = "<group>"; };
+		677DEBDB2B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_Transferi_Yaygin_YontemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		677DEBE82B6D7237000B9084 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		677DEBEA2B6D723F000B9084 /* ViewControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		677DEBB22B6D71FB000B9084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677DEBC82B6D71FC000B9084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677DEBD22B6D71FC000B9084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		677DEBAC2B6D71FB000B9084 = {
+			isa = PBXGroup;
+			children = (
+				677DEBB72B6D71FB000B9084 /* Veri Transferi Yaygin Yontem */,
+				677DEBCE2B6D71FC000B9084 /* Veri Transferi Yaygin YontemTests */,
+				677DEBD82B6D71FC000B9084 /* Veri Transferi Yaygin YontemUITests */,
+				677DEBB62B6D71FB000B9084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		677DEBB62B6D71FB000B9084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				677DEBB52B6D71FB000B9084 /* Veri Transferi Yaygin Yontem.app */,
+				677DEBCB2B6D71FC000B9084 /* Veri Transferi Yaygin YontemTests.xctest */,
+				677DEBD52B6D71FC000B9084 /* Veri Transferi Yaygin YontemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		677DEBB72B6D71FB000B9084 /* Veri Transferi Yaygin Yontem */ = {
+			isa = PBXGroup;
+			children = (
+				677DEBB82B6D71FB000B9084 /* AppDelegate.swift */,
+				677DEBBA2B6D71FB000B9084 /* SceneDelegate.swift */,
+				677DEBBC2B6D71FB000B9084 /* ViewController.swift */,
+				677DEBE82B6D7237000B9084 /* ViewControllerB.swift */,
+				677DEBEA2B6D723F000B9084 /* ViewControllerC.swift */,
+				677DEBBE2B6D71FB000B9084 /* Main.storyboard */,
+				677DEBC12B6D71FC000B9084 /* Assets.xcassets */,
+				677DEBC32B6D71FC000B9084 /* LaunchScreen.storyboard */,
+				677DEBC62B6D71FC000B9084 /* Info.plist */,
+			);
+			path = "Veri Transferi Yaygin Yontem";
+			sourceTree = "<group>";
+		};
+		677DEBCE2B6D71FC000B9084 /* Veri Transferi Yaygin YontemTests */ = {
+			isa = PBXGroup;
+			children = (
+				677DEBCF2B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemTests.swift */,
+			);
+			path = "Veri Transferi Yaygin YontemTests";
+			sourceTree = "<group>";
+		};
+		677DEBD82B6D71FC000B9084 /* Veri Transferi Yaygin YontemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				677DEBD92B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemUITests.swift */,
+				677DEBDB2B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemUITestsLaunchTests.swift */,
+			);
+			path = "Veri Transferi Yaygin YontemUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		677DEBB42B6D71FB000B9084 /* Veri Transferi Yaygin Yontem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677DEBDF2B6D71FC000B9084 /* Build configuration list for PBXNativeTarget "Veri Transferi Yaygin Yontem" */;
+			buildPhases = (
+				677DEBB12B6D71FB000B9084 /* Sources */,
+				677DEBB22B6D71FB000B9084 /* Frameworks */,
+				677DEBB32B6D71FB000B9084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Veri Transferi Yaygin Yontem";
+			productName = "Veri Transferi Yaygin Yontem";
+			productReference = 677DEBB52B6D71FB000B9084 /* Veri Transferi Yaygin Yontem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		677DEBCA2B6D71FC000B9084 /* Veri Transferi Yaygin YontemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677DEBE22B6D71FC000B9084 /* Build configuration list for PBXNativeTarget "Veri Transferi Yaygin YontemTests" */;
+			buildPhases = (
+				677DEBC72B6D71FC000B9084 /* Sources */,
+				677DEBC82B6D71FC000B9084 /* Frameworks */,
+				677DEBC92B6D71FC000B9084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				677DEBCD2B6D71FC000B9084 /* PBXTargetDependency */,
+			);
+			name = "Veri Transferi Yaygin YontemTests";
+			productName = "Veri Transferi Yaygin YontemTests";
+			productReference = 677DEBCB2B6D71FC000B9084 /* Veri Transferi Yaygin YontemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		677DEBD42B6D71FC000B9084 /* Veri Transferi Yaygin YontemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677DEBE52B6D71FC000B9084 /* Build configuration list for PBXNativeTarget "Veri Transferi Yaygin YontemUITests" */;
+			buildPhases = (
+				677DEBD12B6D71FC000B9084 /* Sources */,
+				677DEBD22B6D71FC000B9084 /* Frameworks */,
+				677DEBD32B6D71FC000B9084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				677DEBD72B6D71FC000B9084 /* PBXTargetDependency */,
+			);
+			name = "Veri Transferi Yaygin YontemUITests";
+			productName = "Veri Transferi Yaygin YontemUITests";
+			productReference = 677DEBD52B6D71FC000B9084 /* Veri Transferi Yaygin YontemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		677DEBAD2B6D71FB000B9084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					677DEBB42B6D71FB000B9084 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					677DEBCA2B6D71FC000B9084 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 677DEBB42B6D71FB000B9084;
+					};
+					677DEBD42B6D71FC000B9084 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 677DEBB42B6D71FB000B9084;
+					};
+				};
+			};
+			buildConfigurationList = 677DEBB02B6D71FB000B9084 /* Build configuration list for PBXProject "Veri Transferi Yaygin Yontem" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 677DEBAC2B6D71FB000B9084;
+			productRefGroup = 677DEBB62B6D71FB000B9084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				677DEBB42B6D71FB000B9084 /* Veri Transferi Yaygin Yontem */,
+				677DEBCA2B6D71FC000B9084 /* Veri Transferi Yaygin YontemTests */,
+				677DEBD42B6D71FC000B9084 /* Veri Transferi Yaygin YontemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		677DEBB32B6D71FB000B9084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677DEBC52B6D71FC000B9084 /* LaunchScreen.storyboard in Resources */,
+				677DEBC22B6D71FC000B9084 /* Assets.xcassets in Resources */,
+				677DEBC02B6D71FB000B9084 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677DEBC92B6D71FC000B9084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677DEBD32B6D71FC000B9084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		677DEBB12B6D71FB000B9084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677DEBBD2B6D71FB000B9084 /* ViewController.swift in Sources */,
+				677DEBE92B6D7237000B9084 /* ViewControllerB.swift in Sources */,
+				677DEBEB2B6D723F000B9084 /* ViewControllerC.swift in Sources */,
+				677DEBB92B6D71FB000B9084 /* AppDelegate.swift in Sources */,
+				677DEBBB2B6D71FB000B9084 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677DEBC72B6D71FC000B9084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677DEBD02B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677DEBD12B6D71FC000B9084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677DEBDC2B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemUITestsLaunchTests.swift in Sources */,
+				677DEBDA2B6D71FC000B9084 /* Veri_Transferi_Yaygin_YontemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		677DEBCD2B6D71FC000B9084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 677DEBB42B6D71FB000B9084 /* Veri Transferi Yaygin Yontem */;
+			targetProxy = 677DEBCC2B6D71FC000B9084 /* PBXContainerItemProxy */;
+		};
+		677DEBD72B6D71FC000B9084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 677DEBB42B6D71FB000B9084 /* Veri Transferi Yaygin Yontem */;
+			targetProxy = 677DEBD62B6D71FC000B9084 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		677DEBBE2B6D71FB000B9084 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				677DEBBF2B6D71FB000B9084 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		677DEBC32B6D71FC000B9084 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				677DEBC42B6D71FC000B9084 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		677DEBDD2B6D71FC000B9084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		677DEBDE2B6D71FC000B9084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		677DEBE02B6D71FC000B9084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Veri Transferi Yaygin Yontem/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "safakselimsofioglu.Veri-Transferi-Yaygin-Yontem";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		677DEBE12B6D71FC000B9084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Veri Transferi Yaygin Yontem/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "safakselimsofioglu.Veri-Transferi-Yaygin-Yontem";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		677DEBE32B6D71FC000B9084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "safakselimsofioglu.Veri-Transferi-Yaygin-YontemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veri Transferi Yaygin Yontem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veri Transferi Yaygin Yontem";
+			};
+			name = Debug;
+		};
+		677DEBE42B6D71FC000B9084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "safakselimsofioglu.Veri-Transferi-Yaygin-YontemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veri Transferi Yaygin Yontem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veri Transferi Yaygin Yontem";
+			};
+			name = Release;
+		};
+		677DEBE62B6D71FC000B9084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "safakselimsofioglu.Veri-Transferi-Yaygin-YontemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veri Transferi Yaygin Yontem";
+			};
+			name = Debug;
+		};
+		677DEBE72B6D71FC000B9084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "safakselimsofioglu.Veri-Transferi-Yaygin-YontemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veri Transferi Yaygin Yontem";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		677DEBB02B6D71FB000B9084 /* Build configuration list for PBXProject "Veri Transferi Yaygin Yontem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677DEBDD2B6D71FC000B9084 /* Debug */,
+				677DEBDE2B6D71FC000B9084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677DEBDF2B6D71FC000B9084 /* Build configuration list for PBXNativeTarget "Veri Transferi Yaygin Yontem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677DEBE02B6D71FC000B9084 /* Debug */,
+				677DEBE12B6D71FC000B9084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677DEBE22B6D71FC000B9084 /* Build configuration list for PBXNativeTarget "Veri Transferi Yaygin YontemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677DEBE32B6D71FC000B9084 /* Debug */,
+				677DEBE42B6D71FC000B9084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677DEBE52B6D71FC000B9084 /* Build configuration list for PBXNativeTarget "Veri Transferi Yaygin YontemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677DEBE62B6D71FC000B9084 /* Debug */,
+				677DEBE72B6D71FC000B9084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 677DEBAD2B6D71FB000B9084 /* Project object */;
+}
